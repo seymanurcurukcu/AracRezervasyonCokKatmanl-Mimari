@@ -1,0 +1,132 @@
+﻿<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Sayfası</title>
+    <link rel="stylesheet" href="~/panel/ltr/css/plugin.min.css">
+    <link rel="stylesheet" href="~/panel/ltr/css/style.css">
+    <link rel="stylesheet" href="~/panel/ltr/css/Liste.css">
+   
+</head>
+
+<body class="layout-light side-menu overlayScroll">
+    <div class="mobile-search"></div>
+
+    <div class="mobile-author-actions"></div>
+    <header class="header-top">
+        <nav class="navbar navbar-light">
+            <div class="navbar-left">
+                <a href="" class="sidebar-toggle">
+                    <img class="svg" src="~/panel/ltr/img/svg/bars.svg" alt="img">
+                </a>
+                <a class="navbar-brand" href="">LOGO</a>
+                <form action="/" class="search-form">
+                    <span data-feather="search"></span>
+                    <input class="form-control mr-sm-2 box-shadow-none" type="search" placeholder="Search..." aria-label="Search">
+                </form>
+
+            </div>
+            <div class="navbar-right">
+                <ul class="navbar-right__menu">
+
+                    <li class="nav-author">
+                        <div class="dropdown-custom">
+                            <a href="" class="nav-item-toggle"><img src="https://demo.jsnorm.com/html/strikingdash/strikingdash/ltr/img/author-nav.jpg" alt="" class="rounded-circle"></a>
+                            <div class="dropdown-wrapper">
+                                <div class="nav-author__info">
+                                    <div class="author-img">
+                                        <img src="https://demo.jsnorm.com/html/strikingdash/strikingdash/ltr/img/author-nav.jpg" alt="" class="rounded-circle">
+                                    </div>
+                                    <div>
+                                        <h6>ADMİN</h6>
+                                    </div>
+                                </div>
+                                <div class="nav-author__options">
+                                    <a href="/AdminLogin/Login" class="nav-author__signout">
+                                        <span data-feather="log-out"></span> ÇIKIŞ YAP
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main-content">
+
+        <aside class="sidebar">
+            <div class="sidebar__menu-group">
+                <ul class="sidebar_nav">
+                    <li class="menu-title">
+                        <span>MENU</span>
+                    </li>
+                    <li>
+                        <a href="/AdminIsyeri/Index">
+                            <span data-feather="layout" class="nav-icon"></span>
+                            <span class="menu-text">İş Yeri İşlemleri</span>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="/AdminSirketYonetici/Index">
+                            <span data-feather="layout" class="nav-icon"></span>
+                            <span class="menu-text">İş Yeri Yönetici İşlemleri</span>
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/KullaniciListesi/Index">
+                            <span data-feather="target" class="nav-icon"></span>
+                            <span class="menu-text">Kullanıcı Listesi</span>
+
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="/AracListesi/Index">
+                            <span data-feather="target" class="nav-icon"></span>
+                            <span class="menu-text">Araç Listesi</span>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/MusteriListesi/Index">
+                            <span data-feather="target" class="nav-icon"></span>
+                            <span class="menu-text">Müşteri Listesi</span>
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="contents">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-body">                         
+                                  @RenderBody()                          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="~/panel/ltr/js/plugins.min.js"></script>
+    <script src="~/panel/ltr/js/script.min.js"></script>
+    <script src="~/Scripts/bootbox.min.js"></script>
+</body>
+
+</html>

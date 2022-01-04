@@ -1,0 +1,49 @@
+﻿@model List<EntityLayer.Entities.Sirket>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h5 class="header-title pb-3 mt-0">İş Yeri İşlemleri</h5>
+<div class="table-responsive">
+    <a class="btn btn-primary" href="/AdminIsyeri/Create">Şirket Ekle</a>
+    <br />
+    <br />
+    <table class="table table-hover mb-0">
+        <thead>
+            <tr class="align-self-center">
+                <th>Id</th>
+                <th>Adı</th>
+                <th>İl</th>
+                <th>İlçe</th>
+                <th>Mahalle</th>
+                <th>Araç Sayısı</th>
+                <th>Sirket Puani</th>
+                <th>Sil</th>
+                <th>Güncelle</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.SirketID</td>
+                    <td>@item.SirketAdi</td>
+                    <td>@item.SirketIl</td>
+                    <td>@item.SirketIlce</td>
+                    <td>@item.SirketMahalle</td>
+                    <td>@item.AracSayisi</td>
+                    <td>@item.SirketPuani</td>
+                    <td>
+                        <a class="btn btn-danger" href="/AdminIsyeri/Delete/@item.SirketID">Sil</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-primary" href="/AdminIsyeri/Update/@item.SirketID">Güncelle</a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+

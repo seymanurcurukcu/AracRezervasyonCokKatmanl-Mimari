@@ -1,0 +1,63 @@
+﻿@model EntityLayer.Entities.SirketYetkili
+@{
+    ViewBag.Title = "Create";
+}
+
+<div class="container">
+    <div id="form">
+        <form method="post">
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "btn btn-danger" })
+
+            
+            <div class="form-group">
+                <label for="Sirketid">Şirket Adı <span class="gerekliAlan">*</span></label>
+                @Html.DropDownListFor(x => x.Sirketid, (List<SelectListItem>)ViewBag.sirket, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label for="YoneticiAdi">Adı <span class="gerekliAlan">*</span></label>
+                <input type="text" class="form-control" name="YoneticiAdi" />
+                @Html.ValidationMessageFor(x => x.YoneticiAdi, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="YoneticiSoyadi">Soyadı <span class="gerekliAlan">*</span></label>
+                <input type="text" class="form-control" name="YoneticiSoyadi" />
+                @Html.ValidationMessageFor(x => x.YoneticiSoyadi, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="YoneticiDogumTarihi">Doğum Tarihi <span class="gerekliAlan">*</span></label>
+                <input type="date" class="form-control" name="YoneticiDogumTarihi" />
+                @Html.ValidationMessageFor(x => x.YoneticiDogumTarihi, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="YoneticiTel">Telefon No <span class="gerekliAlan">*</span></label>
+                <input type="text" class="form-control" name="YoneticiTel" />
+                @Html.ValidationMessageFor(x => x.YoneticiTel, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="YoneticiMail">Mail<span class="gerekliAlan">*</span></label>
+                <input type="email" class="form-control" name="YoneticiMail" />
+                @Html.ValidationMessageFor(x => x.YoneticiMail, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="YoneticiKullaniciAdi">Kullanıcı Adı<span class="gerekliAlan">*</span></label>
+                <input type="text" class="form-control" name="YoneticiKullaniciAdi" />
+                @Html.ValidationMessageFor(x => x.YoneticiKullaniciAdi, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="Sifre">Şifre<span class="gerekliAlan">*</span></label>
+                <p><input type="text" class="form-control" name="Sifre" /></p>
+                @Html.ValidationMessageFor(x => x.Sifre, "", new { @style = "color:red" })
+                <p><h7> Gerekli alanlar <span class="gerekliAlan">*</span> ile belirtilmiştir.</h7></p>
+
+            </div>
+
+            <button class="btn btn-primary" type="submit">Yönetici Ekle</button> <br />
+            <a href="/AdminSirketYonetici/Index" class="btn btn-primary">Yönetici Listesi</a>
+        </form>
+
+    </div>
+
+</div>
+
+

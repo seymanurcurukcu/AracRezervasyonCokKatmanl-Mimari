@@ -1,0 +1,40 @@
+﻿@model List<EntityLayer.Entities.Kullanici>
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<h5 class="header-title pb-3 mt-0">Kullanıcı Listesi</h5>
+<div class="table-responsive">
+    <table class="table table-hover mb-0">
+        <thead>
+            <tr class="align-self-center">
+                <th>Id</th>
+                <th>Şirket Adı</th>
+                <th>Adı</th>
+                <th>Soyadı</th>
+                <th>Telefon No</th>
+                <th>MAIL</th>
+                <th>Kullanıcı Adı</th>
+                <th>Şifre</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.KullaniciID</td>
+                    <td>@item.Sirket.SirketAdi</td>
+                    <td>@item.KullaniciAdi</td>
+                    <td>@item.KullaniciSoyismi</td>
+                    <td>@item.KullaniciTel</td>
+                    <td>@item.KullaniciMail</td>
+                    <td>@item.KullaniciAdi</td>
+                    <td>@item.Sifre</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

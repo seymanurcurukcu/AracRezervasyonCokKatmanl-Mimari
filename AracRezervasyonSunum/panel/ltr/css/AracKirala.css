@@ -1,0 +1,162 @@
+﻿body {
+    margin-top: 20px;
+    background: #eef0f0;
+}
+
+.candidates-listing-bg {
+    padding: 210px 0px 60px 0px;
+    background-image: url("../images/candidates-listing-bg.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+}
+
+.candidates-list-desc {
+    overflow: hidden;
+}
+
+.candidates-right-details {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.candidates-item-desc {
+    margin-left: 45px;
+}
+
+.list-grid-item {
+    border: 1px solid #ececec;
+    border-radius: 6px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.list-grid-item:hover {
+    -webkit-box-shadow: 0 0 20px 0px rgba(47, 47, 47, 0.09);
+    box-shadow: 0 0 20px 0px rgba(47, 47, 47, 0.09);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    border-color: transparent;
+
+}
+
+.left-sidebar .card-body {
+    border-bottom: 1px solid #ececec;
+}
+
+.custom-control {
+    margin: 11px 20px;
+}
+
+.card-header {
+    background-color: transparent;
+    margin-bottom: 0 !important;
+}
+
+.pagination.job-pagination .page-link {
+    border-radius: 50% !important;
+    margin: 0 4px;
+    height: 46px;
+    width: 45px;
+    line-height: 29px;
+    text-align: center;
+    color: #777777;
+}
+
+.search-result-categories > li > a {
+    color: #b6b6b6;
+    font-weight: 400
+}
+
+.search-result-categories > li > a:hover {
+    background-color: #ddd;
+    color: #555
+
+}
+
+.search-result-categories > li > a > .glyphicon {
+    margin-right: 5px
+
+}
+
+.search-result-categories > li > a > .badge {
+    float: right
+
+}
+
+.search-results-count {
+    margin-top: 10px
+}
+
+.search-result-item {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px
+}
+
+.search-result-item:after,
+.search-result-item:before {
+    content: " ";
+    display: table
+
+}
+
+.search-result-item:after {
+    clear: both
+
+}
+
+.search-result-item .image-link {
+    display: block;
+    overflow: hidden;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px
+
+}
+
+@media (min-width:768px) {
+    .search-result-item .image-link {
+        display: inline-block;
+        margin: -20px 0 -20px -20px;
+        float: left;
+        width: 200px
+    }
+}
+
+@media (max-width:767px) {
+    .search-result-item .image-link {
+        max-height: 200px
+    }
+}
+
+.search-result-item .image {
+    max-width: 100%
+}
+
+.search-result-item .info {
+    margin-top: 2px;
+    font-size: 12px;
+    color: #999
+}
+
+.search-result-item .description {
+    font-size: 13px
+}
+
+.search-result-item + .search-result-item {
+    margin-top: 20px
+}
+
+@media (min-width:768px) {
+    .search-result-item-body {
+        margin-left: 200px
+    }
+}
+
+
+@media (min-width:768px) {
+    .search-result-item-heading {
+        margin: 0
+    }
+}

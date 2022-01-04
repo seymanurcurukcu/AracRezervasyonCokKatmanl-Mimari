@@ -1,0 +1,53 @@
+﻿@model EntityLayer.Entities.Sirket
+@{
+    ViewBag.Title = "Update";
+}
+
+
+<div class="container">
+    <div id="form">
+        <form method="post">
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "btn btn-danger" })
+            <input type="hidden" class="form-control" name="SirketID" value="@Model.SirketID" />
+            <div class="form-group">
+                <label for="SirketAdi">Şirket Adı <span class="gerekliAlan">*</span></label>
+                <input type="text" class="form-control" name="SirketAdi" value="@Model.SirketAdi" />
+                @Html.ValidationMessageFor(x => x.SirketAdi, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="SirketIl">İl <span class="gerekliAlan">*</span></label>
+                <input type="text" class="form-control" name="SirketIl" value="@Model.SirketIl" />
+                @Html.ValidationMessageFor(x => x.SirketIl, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="SirketIlce">İlçe <span class="gerekliAlan">*</span></label>
+                <input type="text" class="form-control" name="SirketIlce" value="@Model.SirketIlce" />
+                @Html.ValidationMessageFor(x => x.SirketIlce, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="SirketMahalle">Mahalle <span class="gerekliAlan">*</span></label>
+                <input type="text" class="form-control" name="SirketMahalle" value="@Model.SirketMahalle" />
+                @Html.ValidationMessageFor(x => x.SirketMahalle, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="AracSayisi">Araç Sayısı<span class="gerekliAlan">*</span></label>
+                <input type="number" class="form-control" name="AracSayisi" value="@Model.AracSayisi" />
+                @Html.ValidationMessageFor(x => x.AracSayisi, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="SirketPuani">Şirket Puanı<span class="gerekliAlan">*</span></label>
+                <p><input type="number" class="form-control" name="SirketPuani" value="@Model.SirketPuani" /></p>
+                @Html.ValidationMessageFor(x => x.SirketPuani, "", new { @style = "color:red" })
+                <p><h7> Gerekli alanlar <span class="gerekliAlan">*</span> ile belirtilmiştir.</h7></p>
+
+            </div>
+
+            <button class="btn btn-primary" type="submit">Şirket Güncelle</button>
+
+        </form>
+
+    </div>
+
+</div>
+

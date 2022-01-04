@@ -1,0 +1,52 @@
+﻿@model List<EntityLayer.Entities.SirketYetkili>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h5 class="header-title pb-3 mt-0">İş Yeri Yetkili İşlemleri</h5>
+<a class="btn btn-primary" href="/AdminSirketYonetici/Create">Şirket Yetkili Ekle</a>
+<br />
+<br />
+<div class="table-responsive">
+    <table class="table table-hover mb-0">
+        <thead>
+            <tr class="align-self-center">
+                <th>Id</th>
+                <th>Şirket Adı</th>
+                <th>Adı</th>
+                <th>Soyadı</th>
+                <th>Doğum Yılı</th>
+                <th>Telefon No</th>
+                <th>MAIL</th>
+                <th>Kullanıcı Adı</th>
+                <th>Şifre</th>
+                <th>Sil</th>
+                <th>Güncelle</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>@item.SirketYoneticiID</td>
+                <td>@item.Sirket.SirketAdi</td>
+                <td>@item.YoneticiAdi</td>
+                <td>@item.YoneticiSoyadi</td>
+                <td>@item.YoneticiDogumTarihi</td>
+                <td>@item.YoneticiTel</td>
+                <td>@item.YoneticiMail</td>
+                <td>@item.YoneticiKullaniciAdi</td>
+                <td>@item.Sifre</td>
+                <td>
+                    <a class="btn btn-danger" href="/AdminSirketYonetici/Delete/@item.SirketYoneticiID">Sil</a>
+                </td>
+                <td>
+                    <a class="btn btn-primary" href="/AdminSirketYonetici/Update/@item.SirketYoneticiID">Güncelle</a>
+                </td>
+            </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

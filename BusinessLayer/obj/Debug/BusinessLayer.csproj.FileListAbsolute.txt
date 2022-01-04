@@ -1,0 +1,53 @@
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete

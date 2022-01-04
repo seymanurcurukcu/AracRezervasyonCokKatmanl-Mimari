@@ -1,0 +1,103 @@
+﻿@model EntityLayer.Entities.Musteri
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kayıt Ol</title>
+
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.min.css">
+
+    <link rel="stylesheet" href="~/panel/ltr/css/MusteriStyle.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <section class="signup">
+
+            <div class="container">
+                <div class="signup-content">
+                    <form method="post" id="signup-form" class="signup-form">
+                        @Html.AntiForgeryToken()
+                        @Html.ValidationSummary(true, "", new { @class = "btn btn-danger" })
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="Ad">AD</label>
+                                <input type="text" class="form-input" name="MusteriAd" id="Ad" />
+                                @Html.ValidationMessageFor(x => x.MusteriAd, "", new { @style = "color:red" })
+                            </div>
+                            <div class="form-group">
+                                <label for="Soyad">SOYAD</label>
+                                <input type="text" class="form-input" name="MusteriSoyad" id="Soyad" />
+                                @Html.ValidationMessageFor(x => x.MusteriSoyad, "", new { @style = "color:red" })
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group form-icon">
+                                <label for="TC">TC Kimlik numarası</label>
+                                <input type="text" class="form-input" name="MusteriTCKimlikNo" id="TC" />
+                                @Html.ValidationMessageFor(x => x.MusteriTCKimlikNo, "", new { @style = "color:red" })
+                            </div>
+                            <div class="form-group form-icon">
+                                <label for="dogumTarihi">DOĞUM TARİHİ</label>
+                                <input type="date" class="form-input" name="MusteriDogumTarihi" id="dogumTarihi" placeholder="MM.DD.YYYY" />
+                                @Html.ValidationMessageFor(x => x.MusteriDogumTarihi, "", new { @style = "color:red" })
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="adres">ADRES</label>
+                            <input type="text" class="form-input" name="MusteriAdres" id="adres" />
+                            @Html.ValidationMessageFor(x => x.MusteriAdres, "", new { @style = "color:red" })
+                        </div>
+                        <div class="form-group">
+                            <label for="TelefonNo">TELEFON NO</label>
+                            <input type="number" class="form-input" name="MusteriTel" id="TelefonNo" placeholder="05*********" />
+                            @Html.ValidationMessageFor(x => x.MusteriTel, "", new { @style = "color:red" })
+                        </div>
+                        <div class="form-group">
+                            <label for="email">MAİL ADRESİ</label>
+                            <input type="email" class="form-input" name="MusteriMail" id="email" />
+                            @Html.ValidationMessageFor(x => x.MusteriMail, "", new { @style = "color:red" })
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="password">ŞİFRE</label>
+                                <input type="password" class="form-input" name="Sifre" id="password" />
+                                @Html.ValidationMessageFor(x => x.Sifre, "", new { @style = "color:red" })
+                            </div>
+                            <div class="form-group">
+                                <label for="re_password">KULLANICI ADI</label>
+                                <input type="text" class="form-input" name="MusteriKullaniciAdi" id="re_password" />
+                                @Html.ValidationMessageFor(x => x.MusteriKullaniciAdi, "", new { @style = "color:red" })
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+                            <input type="submit" name="submit" id="submit" class="form-submit" value="KAYIT OL" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery-ui/jquery-ui.min.js"></script>
+    <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="vendor/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="~/panel/ltr/js/main.js"></script>
+</body>
+</html>

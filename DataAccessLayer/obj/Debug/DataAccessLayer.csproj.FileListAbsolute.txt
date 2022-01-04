@@ -1,0 +1,45 @@
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\ASUS İ7\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\alkaplan\Desktop\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\ASUS İ7\Desktop\Yeni klasör\AracRezervasyonCokKatmanlıMimari\AracRezervasyon\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
