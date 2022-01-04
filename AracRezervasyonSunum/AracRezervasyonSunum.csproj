@@ -178,6 +178,7 @@
     <Compile Include="Controllers\AdminControllers\AracListesiController.cs" />
     <Compile Include="Controllers\AdminControllers\KullaniciListesiController.cs" />
     <Compile Include="Controllers\AdminControllers\MusteriListesiController.cs" />
+    <Compile Include="Controllers\denemeController.cs" />
     <Compile Include="Controllers\MusteriControllers\MusteriAracController.cs" />
     <Compile Include="Controllers\MusteriControllers\MusteriLoginController.cs" />
     <Compile Include="Global.asax.cs">
@@ -216,6 +217,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\deneme\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
