@@ -11,6 +11,7 @@ namespace AracRezervasyonSunum.Controllers
         // GET: Test
         public ActionResult Index()
         {
+            //deneme
             return View();
         }
     }
