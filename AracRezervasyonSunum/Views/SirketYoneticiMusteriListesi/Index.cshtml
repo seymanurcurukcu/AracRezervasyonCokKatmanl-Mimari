@@ -1,0 +1,46 @@
+﻿@model List<EntityLayer.Entities.Musteri>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/SirketYoneticiLayout.cshtml";
+}
+
+
+<h6 class="header-title pb-3 mt-0">Müşteri Listesi</h6>
+<div class="table-responsive">
+    <table class="table table-hover mb-0">
+        <thead>
+            <tr class="align-self-center">
+                <th>Id</th>
+                <th>Adı</th>
+                <th>Soyadı</th>
+                <th>TC No</th>
+                <th>Adres</th>
+                <th>Doğum Tarihi</th>
+                <th>Telefon No</th>
+                <th>MAIL</th>
+               
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MusteriID</td>
+                    <td>@item.MusteriAd</td>
+                    <td>@item.MusteriSoyad</td>
+                    <td>@item.MusteriTCKimlikNo</td>
+                    <td>@item.MusteriAdres</td>
+                    <td>@item.MusteriDogumTarihi</td>
+                    <td>@item.MusteriTel</td>
+                    <td>@item.MusteriMail</td>
+                  
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+
+

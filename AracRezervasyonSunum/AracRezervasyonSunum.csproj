@@ -181,7 +181,14 @@
     <Compile Include="Controllers\denemeController.cs" />
     <Compile Include="Controllers\MusteriControllers\MusteriAracController.cs" />
     <Compile Include="Controllers\MusteriControllers\MusteriLoginController.cs" />
+<<<<<<< HEAD
     <Compile Include="Controllers\testttController.cs" />
+=======
+    <Compile Include="Controllers\SirketYoneticiControllers\SirketYoneticiAracListesiController.cs" />
+    <Compile Include="Controllers\SirketYoneticiControllers\SirketYoneticiKullaniciController.cs" />
+    <Compile Include="Controllers\SirketYoneticiControllers\SirketYoneticiLoginController.cs" />
+    <Compile Include="Controllers\SirketYoneticiControllers\SirketYoneticiMusteriListesiController.cs" />
+>>>>>>> 322028512e232dcc9daa61e1ac5a66d1123a17ff
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -208,6 +215,15 @@
     <Content Include="Views\MusteriArac\AracListesi.cshtml" />
     <Content Include="Views\MusteriLogin\Login.cshtml" />
     <Content Include="Views\MusteriLogin\KayitOl.cshtml" />
+    <Content Include="Views\Shared\SirketYoneticiLayout.cshtml" />
+    <Content Include="Views\SirketYoneticiAracListesi\Index.cshtml" />
+    <Content Include="Views\SirketYoneticiKullanici\Create.cshtml" />
+    <Content Include="Views\SirketYoneticiKullanici\Index.cshtml" />
+    <Content Include="Views\SirketYoneticiKullanici\Update.cshtml" />
+    <Content Include="Views\SirketYoneticiLogin\Guncelleme.cshtml" />
+    <Content Include="Views\SirketYoneticiLogin\Login.cshtml" />
+    <Content Include="Views\SirketYoneticiLogin\SifremiUnuttum.cshtml" />
+    <Content Include="Views\SirketYoneticiMusteriListesi\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
