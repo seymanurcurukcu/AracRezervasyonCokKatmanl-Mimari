@@ -1,0 +1,59 @@
+﻿@model IEnumerable<EntityLayer.Entities.MusteriAracKiralama>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/KullaniciLayout.cshtml";
+}
+
+
+<h5 class="header-title pb-3 mt-0">Araç Talep İşlemleri</h5>
+<div class="table-responsive">
+    <br />
+    <br />
+    <table class="table table-hover mb-0">
+        <thead>
+            <tr class="align-self-center">
+                <th>Adı</th>
+                <th>Soyadı</th>
+                <th>TC No</th>
+                <th>Adres</th>
+                <th>Doğum Tarihi</th>
+                <th>Telefon No</th>
+                <th>MAIL</th>
+                <th>Araç Model</th>
+                <th>Alış Tarihi</th>
+                <th>Bitiş Tarihi</th>
+                <th>Fiyat</th>
+                <th>Onayla</th>
+                <th>Reddet</th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MusteriMak.MusteriAd</td>
+                    <td>@item.MusteriMak.MusteriSoyad</td>
+                    <td>@item.MusteriMak.MusteriTCKimlikNo</td>
+                    <td>@item.MusteriMak.MusteriAdres</td>
+                    <td>@item.MusteriMak.MusteriDogumTarihi</td>
+                    <td>@item.MusteriMak.MusteriTel</td>
+                    <td>@item.MusteriMak.MusteriMail</td>
+                    <td>@item.AracMak.Modeli</td>
+                    <td>@item.KiralikMak.VerilisTarihi</td>
+                    <td>@item.KiralikMak.BitisTarihi</td>
+                    <td>@item.KiralikMak.AlınanÜcret</td>
+                    <td>
+                        <a class="btn btn-success" href="/KullaniciAracTalepleri/Onayla/@item.AracMak.AracID">Onayla</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" href="/KullaniciAracTalepleri/Reddet/@item.KiralikMak.KiralamaID">Reddet</a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+

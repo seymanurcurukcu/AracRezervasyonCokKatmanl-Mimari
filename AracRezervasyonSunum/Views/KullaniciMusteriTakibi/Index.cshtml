@@ -1,0 +1,39 @@
+﻿@model IEnumerable<EntityLayer.Entities.MusteriAracKiralama>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/KullaniciLayout.cshtml";
+}
+
+<h5 class="header-title pb-3 mt-0">Araç Talep İşlemleri</h5>
+<div class="table-responsive">
+    <br />
+    <br />
+    <table class="table table-hover mb-0">
+        <thead>
+            <tr class="align-self-center">
+
+                <th>MAIL</th>
+                <th>Araç Model</th>
+                <th>Bitiş Tarihi</th>
+                <th>Kiralamayı Sonlandır</th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MusteriMak.MusteriMail</td>
+                    <td>@item.AracMak.Modeli</td>
+                    <td>@item.KiralikMak.BitisTarihi</td>
+                    <td>
+                        <a class="btn btn-info" href="/KullaniciMusteriTakibi/Sonlandır/@item.KiralikMak.KiralamaID">Sonlandır</a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+

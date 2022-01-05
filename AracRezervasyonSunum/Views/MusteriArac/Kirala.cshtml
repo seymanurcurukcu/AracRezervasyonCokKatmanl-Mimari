@@ -1,0 +1,43 @@
+﻿@model EntityLayer.Entities.Kiralik
+@{
+    ViewBag.Title = "Kirala";
+    Layout = "~/Views/Shared/MusteriLayout.cshtml";
+}
+
+
+<div class="container">
+    <div id="formKiralama">
+        <form method="post">
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "btn btn-danger" })
+            <input type="hidden" class="form-control" name="AracID" value="@ViewBag.AracID" />
+
+            <div class="form-group">
+                <label for="AlisTarihi">Alış Tarihi <span class="gerekliAlan">*</span></label>
+                <input type="date" class="form-control" name="VerilisTarihi" />
+                @Html.ValidationMessageFor(x => x.VerilisTarihi, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="BitisTarihi">Bitiş Tarihi <span class="gerekliAlan">*</span></label>
+                <input type="date" class="form-control" name="BitisTarihi" />
+                @Html.ValidationMessageFor(x => x.BitisTarihi, "", new { @style = "color:red" })
+                <p><h7> Gerekli alanlar <span class="gerekliAlan">*</span> ile belirtilmiştir.</h7></p>
+            </div>
+
+            <div>
+                <label>Fiyat:</label> <span>@ViewBag.AracFiyati</span>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Kiralama Talep Et</button>
+
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () { // will trigger when the document is ready
+        $('.datepicker').datepicker(); //Initialise any date pickers
+    });
+</script>
+
+

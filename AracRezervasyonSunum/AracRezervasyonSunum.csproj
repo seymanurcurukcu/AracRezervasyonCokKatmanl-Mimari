@@ -94,9 +94,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\img\13331586-1200x675.png" />
-    <Content Include="Content\img\kapak_112247.jpg" />
-    <Content Include="Content\img\yeni-kuga.png" />
+    <Content Include="Content\Image\13331586-1200x675.png" />
+    <Content Include="Content\Image\kapak_112247.jpg" />
+    <Content Include="Content\Image\yeni-kuga.png" />
     <Content Include="panel\ltr\css\Anasayfa.css" />
     <Content Include="panel\ltr\css\Anasayfa2.css" />
     <Content Include="panel\ltr\css\AracKirala.css" />
@@ -223,6 +223,16 @@
     <Content Include="Views\SirketYoneticiLogin\Login.cshtml" />
     <Content Include="Views\SirketYoneticiLogin\SifremiUnuttum.cshtml" />
     <Content Include="Views\SirketYoneticiMusteriListesi\Index.cshtml" />
+    <Content Include="Views\Shared\KullaniciLayout.cshtml" />
+    <Content Include="Views\KullaniciArac\Index.cshtml" />
+    <Content Include="Views\KullaniciArac\Create.cshtml" />
+    <Content Include="Views\KullaniciArac\Update.cshtml" />
+    <Content Include="Views\KullaniciAracTalepleri\Index.cshtml" />
+    <Content Include="Views\KullaniciLogin\Login.cshtml" />
+    <Content Include="Views\KullaniciMusteriTakibi\Index.cshtml" />
+    <Content Include="Views\KullaniciMusteriTakibi\Sonlandır.cshtml" />
+    <Content Include="Views\MusteriArac\Kirala.cshtml" />
+    <Content Include="Views\MusteriArac\Rezervasyon.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -235,10 +245,6 @@
     <Folder Include="Models\" />
     <Folder Include="Views\KullaniciAracController\" />
     <Folder Include="Views\KullaniciAracTalepleriController\" />
-    <Folder Include="Views\KullaniciAracTalepleri\" />
-    <Folder Include="Views\KullaniciArac\" />
-    <Folder Include="Views\KullaniciLogin\" />
-    <Folder Include="Views\KullaniciMusteriTakibi\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">

@@ -1,0 +1,34 @@
+﻿@model EntityLayer.Entities.Kiralik
+@{
+    ViewBag.Title = "Sonlandır";
+    Layout = "~/Views/Shared/KullaniciLayout.cshtml";
+}
+
+
+<div class="container">
+    <div id="form">
+        <form method="post">
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "btn btn-danger" })
+            <input type="hidden" class="form-control" name="ilkKm" value="@Model.ilkKm" />
+            <input type="hidden" class="form-control" name="AracID" value="@Model.AracID" />
+            <input type="hidden" class="form-control" name="VerilisTarihi" value="@Model.VerilisTarihi" />
+            <input type="hidden" class="form-control" name="BitisTarihi" value="@Model.BitisTarihi" />
+            <input type="hidden" class="form-control" name="MusteriID" value="@Model.AlınanÜcret" />
+            <input type="hidden" class="form-control" name="SonKm" value="@Model.MusteriID" />
+            <input type="hidden" class="form-control" name="KiralamaID" value="@Model.KiralamaID" />
+            <div class="form-group">
+                <label for="SonKm">Aracın Güncel KM si <span class="gerekliAlan">*</span></label>
+                <p><input type="number" class="form-control" name="SonKm" value="@Model.SonKm" /></p>
+                @Html.ValidationMessageFor(x => x.SonKm, "", new { @style = "color:red" })
+                <p><h7> Gerekli alanlar <span class="gerekliAlan">*</span> ile belirtilmiştir.</h7></p>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Kiralamayı Sonlandır</button>
+
+        </form>
+
+    </div>
+
+</div>
+

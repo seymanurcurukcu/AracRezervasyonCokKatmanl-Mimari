@@ -1,0 +1,97 @@
+﻿@model IEnumerable<EntityLayer.Entities.Arac>
+@{
+    ViewBag.Title = "Rezervasyon";
+    Layout = "~/Views/Shared/MusteriLayout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+
+            <div class="candidates-listing-item">
+                @foreach (var item in Model)
+                {
+                    <div class="list-grid-item mt-4 p-2">
+                        <section class="search-result-item">
+
+                            <a class="image-link" href="#">
+                                <img class="image" src="~/Content/Image/@item.resim" style="padding-top:30px; width: 400px; height:200px;">
+                            </a>
+                            <div class="search-result-item-body">
+                                <div class="row">
+                                    <div class="col-sm-9">
+                                        <h4 class="search-result-item-heading"><a href="#">@item.AracAdi @item.Modeli Model</a></h4>
+                                        <p class="info">@item.Sirket.SirketIl @item.Sirket.SirketIlce @item.Sirket.SirketMahalle Mahallesi </p>
+                                        <ul>
+                                            <li>Minimum Yaş Sınırı: @item.MinimumYasSiniri</li>
+                                            <li>Günlük Sınır KM: @item.GunlukSinirKm</li>
+                                            <li>Aracın Kendi Anlık KM: @item.AracınKendiAnlikKm</li>
+                                            <li>Koltuk Sayısı: @item.KoltukSayisi</li>
+                                            <li>Yakıtı: @item.Yakiti</li>
+                                            <li>Vites Türü: @item.vitesTuru</li>
+                                            <li>
+                                                Durumu:
+                                                @if (item.durum == 1)
+                                                {
+                                                    <label class="btn btn-info">Onay Bekliyor</label>
+                                                }
+                                                else if (item.durum == 2)
+                                                {
+                                                    <label class="btn btn-success">Onaylandı</label>
+                                                }
+                                                else
+                                                {
+                                                    <label class="btn btn-danger">Reddedildi</label>
+                                                }
+
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-sm-3 text-align-center">
+                                        <br />
+                                        @*<h4>Fiyatı:</h4>*@
+                                        @*<p class="value3 mt-sm">@item.GunlukKiralikFiyati TL</p>*@
+                                        @*<a class="btn btn-primary btn-info btn-sm" href="/MusteriArac/Kirala/@item.AracID">Kirala</a>*@
+                                        <br /><br /><br />
+                                        <h6 class="search-result-item-heading" style="color: #007bff;">@item.Sirket.SirketAdi</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </section>
+
+                    </div>
+                }
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination job-pagination justify-content-center mt-5 mb-5">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                                        <i class="mdi mdi-chevron-double-left f-15"></i>
+                                    </a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">
+                                        <i class="mdi mdi-chevron-double-right f-15"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="~/panel/ltr/css/AracKirala.css">
+
+<script src="~/panel/ltr/js/AracKirala.js"></script>
