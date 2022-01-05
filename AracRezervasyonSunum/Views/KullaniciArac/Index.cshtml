@@ -1,0 +1,70 @@
+﻿@model List<EntityLayer.Entities.Arac>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/KullaniciLayout.cshtml";
+}
+
+
+<h5 class="header-title pb-3 mt-0">Araç İşlemleri</h5>
+<div class="table-responsive">
+    <a class="btn btn-primary" href="/KullaniciArac/Create/@Session["SirketID"]">Araç Ekle</a>
+    <br />
+    <br />
+    <table class="table table-hover mb-0">
+        <thead>
+            <tr class="align-self-center">
+                <th>Id</th>
+                <th>Şirket Adı</th>
+                <th>Araç Adı</th>
+                <th>Resim</th>
+                <th>Modeli</th>
+                <th>Ehliyet Yaşı</th>
+                <th>Min Yaş Sınırı</th>
+                <th>Günlük Sınır KM</th>
+                <th>Kendi Anlık KM</th>
+                <th>Airbag</th>
+                <th>Bagaj Hacmi</th>
+                <th>Koltuk Sayısı</th>
+                <th>Günlük Kiralama Fiyatı</th>
+                <th>Yakıtı</th>
+                <th>Vites Türü</th>
+                @*<th>Durumu</th>*@
+                <th>Sil</th>
+                <th>Güncelle</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.AracID</td>
+                    <td>@item.Sirket.SirketAdi</td>
+                    <td>@item.AracAdi</td>
+                    <td><img src="~/Content/Image/@item.resim" width="80" height="80" /></td>
+                    <td>@item.Modeli</td>
+                    <td>@item.EhliyetYasi</td>
+                    <td>@item.MinimumYasSiniri</td>
+                    <td>@item.GunlukSinirKm</td>
+                    <td>@item.AracınKendiAnlikKm</td>
+                    <td>@item.Airbag</td>
+                    <td>@item.BagajHacmi</td>
+                    <td>@item.KoltukSayisi</td>
+                    <td>@item.GunlukKiralikFiyati</td>
+                    <td>@item.Yakiti</td>
+                    <td>@item.vitesTuru</td>
+                    @*<td>@item.durum</td>*@
+                    <td>
+                        <a class="btn btn-danger" href="/KullaniciArac/Delete/@item.AracID">Sil</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-primary" href="/KullaniciArac/Update/@item.AracID">Güncelle</a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+

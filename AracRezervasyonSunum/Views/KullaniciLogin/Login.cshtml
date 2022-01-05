@@ -1,0 +1,52 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="~/panel/ltr/css/Loginstyle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <script src="~/panel/ltr/js/Login.js"></script>
+</head>
+<body>
+
+    <form action="/KullaniciLogin/Login" method="post" class="login-form">
+        <h1>Kullanıcı Login Sayfasına Hoş Geldiniz</h1>
+
+        <div class="txtb">
+            <input type="text" name="KullaniciAdi">
+            <span data-placeholder="Kullanıcı Adı"></span>
+        </div>
+
+        <div class="txtb">
+            <input type="password" name="Sifre">
+            <span data-placeholder="Şifre"></span>
+        </div><br />
+        <div> @ViewBag.hata </div>
+
+        <p><input type="submit" class="logbtn" value="Giriş Yap"></p>
+
+    </form>
+
+    <script type="text/javascript">
+          $(".txtb input").on("focus", function () {
+              $(this).addClass("focus");
+          });
+
+          $(".txtb input").on("blur", function () {
+              if ($(this).val() == "")
+                  $(this).removeClass("focus");
+          });
+
+    </script>
+    <script src="~/panel/ltr/js/app.js"></script>
+
+
+
+
+</body>
+</html>

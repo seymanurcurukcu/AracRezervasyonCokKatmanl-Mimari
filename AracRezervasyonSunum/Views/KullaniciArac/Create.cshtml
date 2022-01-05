@@ -1,0 +1,89 @@
+﻿@model EntityLayer.Entities.Arac
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/KullaniciLayout.cshtml";
+}
+
+
+<div class="container">
+    <div id="form">
+        <form method="post" enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "btn btn-danger" })
+            <input type="hidden" class="form-control" name="SirketID" value="@Session["SirketID"]" />
+            @*<input type="hidden" class="form-control" name="durum" value="False" />*@
+            <div class="form-group">
+                <label for="AracAdi">Araç Adı <span class="gerekliAlan">*</span></label>
+                <input type="text" class="form-control" name="AracAdi" />
+                @Html.ValidationMessageFor(x => x.AracAdi, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="resim">Resim <span class="gerekliAlan">*</span></label>
+                <input type="file" class="form-control" name="File" />
+                @Html.ValidationMessageFor(x => x.resim, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="Modeli">Modeli <span class="gerekliAlan">*</span></label>
+                <input type="text" class="form-control" name="Modeli" />
+                @Html.ValidationMessageFor(x => x.Modeli, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="EhliyetYasi">Ehliyet Yaşı <span class="gerekliAlan">*</span></label>
+                <input type="number" class="form-control" name="EhliyetYasi" />
+                @Html.ValidationMessageFor(x => x.EhliyetYasi, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="MinimumYasSiniri">Minimum Yaş Sınırı <span class="gerekliAlan">*</span></label>
+                <input type="number" class="form-control" name="MinimumYasSiniri" />
+                @Html.ValidationMessageFor(x => x.MinimumYasSiniri, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="GunlukSinirKm">Günlük KM Sınırı <span class="gerekliAlan">*</span></label>
+                <input type="number" class="form-control" name="GunlukSinirKm" />
+                @Html.ValidationMessageFor(x => x.GunlukSinirKm, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="AracınKendiAnlikKm">Anlık KM  <span class="gerekliAlan">*</span></label>
+                <p><input type="number" class="form-control" name="AracınKendiAnlikKm" /></p>
+                @Html.ValidationMessageFor(x => x.AracınKendiAnlikKm, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="Airbag">Airbag <span class="gerekliAlan">*</span></label>
+                <input type="number" class="form-control" name="Airbag" />
+                @Html.ValidationMessageFor(x => x.Airbag, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="BagajHacmi">Bagaj Hacmi <span class="gerekliAlan">*</span></label>
+                <input type="number" class="form-control" name="BagajHacmi" />
+                @Html.ValidationMessageFor(x => x.BagajHacmi, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="KoltukSayisi">Koltuk Sayısı <span class="gerekliAlan">*</span></label>
+                <input type="number" class="form-control" name="KoltukSayisi" />
+                @Html.ValidationMessageFor(x => x.KoltukSayisi, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="GunlukKiralikFiyati">Günlük Kiralama Fiyatı <span class="gerekliAlan">*</span></label>
+                <input type="number" class="form-control" name="GunlukKiralikFiyati" />
+                @Html.ValidationMessageFor(x => x.GunlukKiralikFiyati, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="Yakiti">Yakıt Tipi <span class="gerekliAlan">*</span></label>
+                <input type="text" class="form-control" name="Yakiti" />
+                @Html.ValidationMessageFor(x => x.Yakiti, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group">
+                <label for="vitesTuru">Vites Türü <span class="gerekliAlan">*</span></label>
+                <input type="text" class="form-control" name="vitesTuru" />
+                @Html.ValidationMessageFor(x => x.vitesTuru, "", new { @style = "color:red" })
+                <p><h7> Gerekli alanlar <span class="gerekliAlan">*</span> ile belirtilmiştir.</h7></p>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Araç Ekle</button>
+
+        </form>
+
+    </div>
+
+</div>
+
