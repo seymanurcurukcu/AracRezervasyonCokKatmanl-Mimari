@@ -180,7 +180,6 @@
     <Compile Include="Controllers\AdminControllers\MusteriListesiController.cs" />
     <Compile Include="Controllers\MusteriControllers\MusteriAracController.cs" />
     <Compile Include="Controllers\MusteriControllers\MusteriLoginController.cs" />
-    <Compile Include="Controllers\testttController.cs" />
     <Compile Include="Controllers\SirketYoneticiControllers\SirketYoneticiAracListesiController.cs" />
     <Compile Include="Controllers\SirketYoneticiControllers\SirketYoneticiKullaniciController.cs" />
     <Compile Include="Controllers\SirketYoneticiControllers\SirketYoneticiLoginController.cs" />
