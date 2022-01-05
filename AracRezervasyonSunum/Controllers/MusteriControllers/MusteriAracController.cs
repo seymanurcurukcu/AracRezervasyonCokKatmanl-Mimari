@@ -6,7 +6,6 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-
 namespace AracRezervasyonSunum.Controllers.MusteriControllers
 {
     public class MusteriAracController : Controller
@@ -14,6 +13,7 @@ namespace AracRezervasyonSunum.Controllers.MusteriControllers
         // GET: MusteriArac
 
         AracRepository aracRepository = new AracRepository();
+        KiralikRepository kiralikRepository = new KiralikRepository();
         public ActionResult Index()
         {
             return View();
@@ -60,6 +60,51 @@ namespace AracRezervasyonSunum.Controllers.MusteriControllers
                 sirala = aracRepository.CoktanAzaSiralama();
             }
 
+            return View(sirala);
+        }
+
+        public ActionResult Kirala(int id)
+        {
+            var Arac = aracRepository.GetById(id);
+            ViewBag.AracFiyati = Arac.GunlukKiralikFiyati;
+            ViewBag.AracID = id;
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Kirala(Kiralik k)
+        {
+
+            if (ModelState.IsValid)
+            {
+                var Arac = aracRepository.GetById(k.AracID);
+                Arac.durum = 1;
+                aracRepository.Update(Arac);
+                decimal kiralamaFiyati = Arac.GunlukKiralikFiyati;
+                string musteriID = Session["MusteriID"].ToString();
+                int id = Convert.ToInt32(musteriID);
+                k.MusteriID = id;
+                k.ilkKm = Arac.AracınKendiAnlikKm;
+                kiralikRepository.Insert(k);
+                var tarih1 = k.VerilisTarihi;
+                var tarih2 = k.BitisTarihi;
+                TimeSpan kalan_sure = (tarih2 - tarih1);
+                double days = kalan_sure.TotalDays;
+                k.AlınanÜcret = (int)(days * (double)(kiralamaFiyati));
+                kiralikRepository.Update(k);
+
+                return RedirectToAction("Rezervasyon");
+            }
+            ModelState.AddModelError("", "Bir Hata Oluştu");
+            return View();
+
+        }
+
+        public ActionResult Rezervasyon()
+        {
+            string musteriID = Session["MusteriID"].ToString();
+            int id = Convert.ToInt32(musteriID);
+            var sirala = aracRepository.MusteriyeGoreListeleme(id);
             return View(sirala);
         }
 
