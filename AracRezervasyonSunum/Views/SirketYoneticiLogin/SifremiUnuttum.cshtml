@@ -1,0 +1,55 @@
+﻿@model EntityLayer.Entities.SirketYetkili
+@{
+    Layout = null;
+}
+
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Login Güncelleme</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.css" />
+    <link rel="stylesheet" href="~/panel/ltr/css/Loginstyle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <form action="/SirketYoneticiLogin/SifremiUnuttum" method="post" class="login-form">
+        <br />
+        <h3>Kullanıcı adınızı girin</h3>
+        <br />
+        <br />
+        <br />
+        <div class="field">
+            <div class="ui huge icon input">
+                <input type="text" name="YoneticiKullaniciAdi" placeholder="Kullanıcı Adı" />
+            </div>
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <p><input type="submit" class="logbtn" value="İleri"></p>
+
+
+
+
+    </form>
+
+
+    <script type="text/javascript">
+        $(".txtb input").on("focus", function () {
+            $(this).addClass("focus");
+        });
+
+        $(".txtb input").on("blur", function () {
+            if ($(this).val() == "")
+                $(this).removeClass("focus");
+        });
+
+    </script>
+    <script src="~/panel/ltr/js/app.js"></script>
+
+
+
+
+</body>
+</html>

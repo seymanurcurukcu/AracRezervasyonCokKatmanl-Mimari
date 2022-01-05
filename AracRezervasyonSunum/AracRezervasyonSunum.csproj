@@ -180,6 +180,10 @@
     <Compile Include="Controllers\AdminControllers\MusteriListesiController.cs" />
     <Compile Include="Controllers\MusteriControllers\MusteriAracController.cs" />
     <Compile Include="Controllers\MusteriControllers\MusteriLoginController.cs" />
+    <Compile Include="Controllers\SirketYoneticiControllers\SirketYoneticiAracListesiController.cs" />
+    <Compile Include="Controllers\SirketYoneticiControllers\SirketYoneticiKullaniciController.cs" />
+    <Compile Include="Controllers\SirketYoneticiControllers\SirketYoneticiLoginController.cs" />
+    <Compile Include="Controllers\SirketYoneticiControllers\SirketYoneticiMusteriListesiController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -206,6 +210,15 @@
     <Content Include="Views\MusteriArac\AracListesi.cshtml" />
     <Content Include="Views\MusteriLogin\Login.cshtml" />
     <Content Include="Views\MusteriLogin\KayitOl.cshtml" />
+    <Content Include="Views\Shared\SirketYoneticiLayout.cshtml" />
+    <Content Include="Views\SirketYoneticiAracListesi\Index.cshtml" />
+    <Content Include="Views\SirketYoneticiKullanici\Create.cshtml" />
+    <Content Include="Views\SirketYoneticiKullanici\Index.cshtml" />
+    <Content Include="Views\SirketYoneticiKullanici\Update.cshtml" />
+    <Content Include="Views\SirketYoneticiLogin\Guncelleme.cshtml" />
+    <Content Include="Views\SirketYoneticiLogin\Login.cshtml" />
+    <Content Include="Views\SirketYoneticiLogin\SifremiUnuttum.cshtml" />
+    <Content Include="Views\SirketYoneticiMusteriListesi\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
