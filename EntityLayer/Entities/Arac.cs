@@ -69,11 +69,11 @@ namespace EntityLayer.Entities
 
         [Required(ErrorMessage = "Bos gecilmez")]
         [Display(Name = "durum")]
-        public bool durum { get; set; }
-        public string resim { get; set;}
+        public int durum { get; set; }
+        public string resim { get; set; }
 
         public virtual Sirket Sirket { get; set; }
 
-        public virtual ICollection<Kiralik> Kiraliks { get; set; }=new HashSet<Kiralik>();
+        public virtual ICollection<Kiralik> Kiraliks { get; set; } = new HashSet<Kiralik>();
     }
 }

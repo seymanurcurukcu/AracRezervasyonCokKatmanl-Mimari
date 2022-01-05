@@ -20,35 +20,35 @@ namespace EntityLayer.Entities
         [Display(Name = "KullaniciIsmi")]
         [StringLength(50, ErrorMessage = "Max 50 karakter olmalidir.")]
         public string KullaniciIsmi { get; set; }
-        
+
         [Required(ErrorMessage = "Bos gecilmez")]
         [Display(Name = "KullaniciSoyismi")]
         [StringLength(50, ErrorMessage = "Max 50 karakter olmalidir.")]
         public string KullaniciSoyismi { get; set; }
-        
+
         [Required(ErrorMessage = "Bos gecilmez")]
         [Display(Name = "KullaniciAdres")]
         [StringLength(250, ErrorMessage = "Max 250 karakter olmalidir.")]
         public string KullaniciAdres { get; set; }
-       
+
         [Required(ErrorMessage = "Bos gecilmez")]
         [Display(Name = "KullaniciTel")]
         [StringLength(11, ErrorMessage = "Max 11 karakter olmalidir.")]
         public string KullaniciTel { get; set; }
-       
+
         [Required(ErrorMessage = "Bos gecilmez")]
         [Display(Name = "KullaniciMail")]
         public string KullaniciMail { get; set; }
-       
+
         [Required(ErrorMessage = "Bos gecilmez")]
         [Display(Name = "KullaniciAdi")]
         public string KullaniciAdi { get; set; }
-       
+
         [Required(ErrorMessage = "Bos gecilmez")]
         [Display(Name = "Sifre")]
         public string Sifre { get; set; }
 
         public virtual Sirket Sirket { get; set; }
-        
+
     }
 }

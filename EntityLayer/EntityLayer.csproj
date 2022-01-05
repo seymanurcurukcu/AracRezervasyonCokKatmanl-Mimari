@@ -55,6 +55,7 @@
     <Compile Include="Entities\Kiralik.cs" />
     <Compile Include="Entities\Kullanici.cs" />
     <Compile Include="Entities\Musteri.cs" />
+    <Compile Include="Entities\MusteriAracKiralama.cs" />
     <Compile Include="Entities\Sirket.cs" />
     <Compile Include="Entities\SirketYetkili.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

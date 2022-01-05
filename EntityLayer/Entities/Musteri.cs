@@ -14,9 +14,9 @@ namespace EntityLayer.Entities
     {
         [Key]
         public int MusteriID { get; set; }
-        [Required(ErrorMessage ="Bos gecilmez")]
-        [Display(Name ="MusteriAd")]
-        [StringLength(50,ErrorMessage ="Max 50 karakter olmalidir.")]
+        [Required(ErrorMessage = "Bos gecilmez")]
+        [Display(Name = "MusteriAd")]
+        [StringLength(50, ErrorMessage = "Max 50 karakter olmalidir.")]
         public string MusteriAd { get; set; }
         [Required(ErrorMessage = "Bos gecilmez")]
         [Display(Name = "MusteriSoyad")]
@@ -39,7 +39,7 @@ namespace EntityLayer.Entities
         public string MusteriTel { get; set; }
         [Required(ErrorMessage = "Bos gecilmez")]
         [Display(Name = "MusteriMail")]
-   
+
         public string MusteriMail { get; set; }
         [Required(ErrorMessage = "Bos gecilmez")]
         [Display(Name = "MusteriKullaniciAdi")]
