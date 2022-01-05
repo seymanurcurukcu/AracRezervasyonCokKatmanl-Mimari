@@ -178,16 +178,14 @@
     <Compile Include="Controllers\AdminControllers\AracListesiController.cs" />
     <Compile Include="Controllers\AdminControllers\KullaniciListesiController.cs" />
     <Compile Include="Controllers\AdminControllers\MusteriListesiController.cs" />
-    <Compile Include="Controllers\denemeController.cs" />
     <Compile Include="Controllers\MusteriControllers\MusteriAracController.cs" />
     <Compile Include="Controllers\MusteriControllers\MusteriLoginController.cs" />
-   <Compile Include="Controllers\testttController.cs" />
-
+    <Compile Include="Controllers\testttController.cs" />
     <Compile Include="Controllers\SirketYoneticiControllers\SirketYoneticiAracListesiController.cs" />
     <Compile Include="Controllers\SirketYoneticiControllers\SirketYoneticiKullaniciController.cs" />
     <Compile Include="Controllers\SirketYoneticiControllers\SirketYoneticiLoginController.cs" />
     <Compile Include="Controllers\SirketYoneticiControllers\SirketYoneticiMusteriListesiController.cs" />
- <Compile Include="Global.asax.cs">
+    <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -232,8 +230,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\testtt\" />
     <Folder Include="Views\deneme\" />
+    <Folder Include="Views\testtt\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
