@@ -178,6 +178,10 @@
     <Compile Include="Controllers\AdminControllers\AracListesiController.cs" />
     <Compile Include="Controllers\AdminControllers\KullaniciListesiController.cs" />
     <Compile Include="Controllers\AdminControllers\MusteriListesiController.cs" />
+    <Compile Include="Controllers\KullaniciControllers\KullaniciAracController.cs" />
+    <Compile Include="Controllers\KullaniciControllers\KullaniciAracTalepleriController.cs" />
+    <Compile Include="Controllers\KullaniciControllers\KullaniciLoginController.cs" />
+    <Compile Include="Controllers\KullaniciControllers\KullaniciMusteriTakibiController.cs" />
     <Compile Include="Controllers\MusteriControllers\MusteriAracController.cs" />
     <Compile Include="Controllers\MusteriControllers\MusteriLoginController.cs" />
     <Compile Include="Controllers\SirketYoneticiControllers\SirketYoneticiAracListesiController.cs" />
@@ -229,6 +233,12 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\KullaniciAracController\" />
+    <Folder Include="Views\KullaniciAracTalepleriController\" />
+    <Folder Include="Views\KullaniciAracTalepleri\" />
+    <Folder Include="Views\KullaniciArac\" />
+    <Folder Include="Views\KullaniciLogin\" />
+    <Folder Include="Views\KullaniciMusteriTakibi\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
